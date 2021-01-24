@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 using XUnitSample;
 
@@ -11,13 +6,13 @@ namespace XUnitSampleTest
 {
     public class StudentTest
     {
-        
         [Fact]
         public void GetTotalRecords()
         {
             var result = StudentUtil.GetTotalRecords();
             Assert.Equal(4, result);
         }
+
         [Theory]
         [InlineData("1", "Hyderabad")]
         [InlineData("2", "Ongole")]
@@ -27,8 +22,8 @@ namespace XUnitSampleTest
             var result = StudentUtil.GetStudentLocationByStudentId(studentId);
             Assert.Equal(expectedResult, result);
         }
-        [Fact]
 
+        [Fact]
         public void GetStudentLocationByStudentIdExceptionTest()
         {
             Assert.Throws<ArgumentException>(() => StudentUtil.GetStudentLocationByStudentId(""));
@@ -40,9 +35,7 @@ namespace XUnitSampleTest
         {
             var result = StudentUtil.GetStudentByName("Chatakondi");
             Assert.Equal(std.EmailId,result.EmailId);
-           
         }
-        
     }
     public class StudentTestData
     {
@@ -52,7 +45,4 @@ namespace XUnitSampleTest
             new Student { StudentId="3", FirstName="Darisi", LastName="Chakravarthi", Location="Chennai", Gender='M', EmailId="suresh.chatakondi@tcs.com"  },
         };
     }
-  
-    
-    
 }

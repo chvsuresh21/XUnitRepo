@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace XUnitSample
 {
@@ -42,26 +39,5 @@ namespace XUnitSample
             else
                 return student.Location;
         }
-
-        
     }
-
-    //public class StudentTest
-    //{
-    //    IEnumerable<int> result = from value in Enumerable.Range(0, 5)
-    //                              select value;
-    //    IEnumerable<Student> result = from value in Enumerable.Range(0, 5)
-    //                              select value;
-    //    Student[] students = new Student[2];
-    //    Student[0] =  new Student { StudentId="1", FirstName="Chatakondi", LastName="Suresh", Location="Hyderabad", Gender='M', EmailId="suresh.chatakondi@tcs.com"  }
-    //    public IEnumerator<Student[]> GetEnumerator()
-    //    {
-    //        yield return new Student[] { 1, 2, 3 };
-    //        yield return new object[] { -4, -6, -10 };
-    //        yield return new object[] { -2, 2, 0 };
-    //        yield return new object[] { int.MinValue, -1, int.MaxValue };
-    //    }
-
-    //    IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
-    //}
 }

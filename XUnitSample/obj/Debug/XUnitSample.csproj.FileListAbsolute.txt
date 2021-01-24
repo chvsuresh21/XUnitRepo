@@ -7,6 +7,5 @@ E:\Samples\XUnitSample\XUnitSample\obj\Debug\XUnitSample.pdb
 E:\Samples\XUnitRepo\XUnitSample\bin\XUnitSample.dll.config
 E:\Samples\XUnitRepo\XUnitSample\bin\XUnitSample.dll
 E:\Samples\XUnitRepo\XUnitSample\bin\XUnitSample.pdb
-E:\Samples\XUnitRepo\XUnitSample\obj\Debug\XUnitSample.csprojResolveAssemblyReference.cache
 E:\Samples\XUnitRepo\XUnitSample\obj\Debug\XUnitSample.dll
 E:\Samples\XUnitRepo\XUnitSample\obj\Debug\XUnitSample.pdb
